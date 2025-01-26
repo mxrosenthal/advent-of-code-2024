@@ -1,0 +1,28 @@
+{
+  "name": "advent-of-code-2024",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "aoc": "npx ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxrosenthal/advent-of-code-2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxrosenthal/advent-of-code-2024/issues"
+  },
+  "homepage": "https://github.com/mxrosenthal/advent-of-code-2024#readme",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.10",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
