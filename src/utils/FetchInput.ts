@@ -10,7 +10,7 @@ const INPUT_DIR = path.resolve(__dirname, '../../inputs');
 
 export const fetchInput = async (day: number): Promise<string> => {
   const inputFilePath = path.join(INPUT_DIR, `day${day.toString().padStart(2, '0')}.txt`);
-//   console.log("session cookie: ", SESSION_COOKIE)
+
   if (fs.existsSync(inputFilePath)) {
     return fs.readFileSync(inputFilePath, 'utf-8');
   }
